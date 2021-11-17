@@ -1,0 +1,68 @@
+$primary: #3E6553FF;
+$dark : #1C211F;
+$dark-soft : #2F3733;
+$card : #262C29;
+$white : #F2F3F2;
+$white-soft : #828784;
+
+body.night-mood{
+  background-color: $dark !important;
+}
+
+.night-mood .menu{
+  background-color: $dark !important;
+}
+
+.night-mood .menu .nav-item .nav-link,
+.night-mood .menu .navbar-brand,
+.night-mood #contactUs .navbar-brand{
+  color: $white !important;
+}
+
+.night-mood .menu .nav-item .nav-link:hover,
+.night-mood .menu .nav-item .nav-link.active{
+  color: $primary !important;
+}
+
+.night-mood .changeMoodBtn,
+.night-mood #home h1,
+.night-mood #about h1,
+.night-mood #products h3,
+.night-mood #products h6,
+.night-mood #products .card p,
+.night-mood #startPlant .card p,
+.night-mood #faq h3,
+.night-mood #faq .accordion .accordion-header button,
+.night-mood #faq .accordion .accordion-body,
+.night-mood #contactUs h3,
+.night-mood #contactUs .left p,
+.night-mood #contactUs .left i,
+.night-mood #contactUs h5{
+  color: $white !important;
+}
+
+.night-mood .text-black-50,
+.night-mood #contactUs label,
+.night-mood #contactUs a{
+  color: $white-soft !important;
+}
+
+.night-mood #startPlant,
+.night-mood #faq,
+.night-mood #contactUs div.bg-secondary{
+  background-color: $dark-soft !important;
+}
+
+.night-mood #startPlant .card,
+.night-mood #faq .accordion-button{
+  background-color: $card;
+}
+
+.night-mood #faq .accordion-item{
+  background-color: transparent !important;
+}
+
+.night-mood #contactUs input,
+.night-mood #contactUs textarea{
+  background-color: $dark !important;
+}

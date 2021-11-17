@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plants Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="css/night-mood.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light header text-dark position-fixed menu top-0 w-100 animate__animated">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <i class="ri-leaf-line"></i>
+            <span class="fw-bold text-uppercase h6">Plantex</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="ri-menu-line menu-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item me-4">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item me-4">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item me-4">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item me-4">
+                    <a class="nav-link" href="#faq">FAQs</a>
+                </li>
+                <li class="nav-item me-4">
+                    <a class="nav-link" href="#contactUs">Contact Us</a>
+                </li>
+                <li class="nav-item me-4">
+                    <button class="btn changeMoodBtn" onclick="changeMood()">
+                        <i class="ri-moon-line mood-icon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Home-->
+<section id="home" class="container">
+    <div class="row min-vh-100 justify-content-center align-items-center py-5 py-lg-0 flex-column-reverse flex-md-row">
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="py-5 py-lg-0 top">
+                <h1 class="display-3 fw-bold lh-base mb-4">
+                    Plants will make
+                    your life better
+                </h1>
+                <p class="text-black-50 mb-4">
+                    Create incredible plant design for your offices or apastaments. Add fresness to your new ideas.
+                </p>
+                <a href="#" class="btn btn-primary btn-lg explore-btn">
+                    <div class="d-flex justify-content-between align-items-center">
+                        Explore
+                        <i class="ri-arrow-right-down-line ms-2"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-md-5 col-lg-5">
+            <div class="d-flex justify-content-center top">
+                <img src="img/home.png" alt="" class="img-fluid w-75">
+            </div>
+        </div>
+        <div class="col-12 col-md-1 col-lg-1 d-none d-md-block">
+            <div class="followUs d-flex justify-content-center align-items-center top">
+                <div class="text-center">
+                    <p class="text-primary follow-us mb-5">Follow Us</p>
+                    <div class="bg-primary mx-auto mb-3" style="width: 5px; height: 30px"></div>
+                    <a href="#" class="text-decoration-none mb-2 d-block">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none mb-2 d-block">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none mb-2 d-block">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--About-->
+<section id="about" class="container">
+    <div class="row min-vh-100 justify-content-center align-items-center mb-5">
+        <div class="col-12 col-md-4 col-lg-6">
+            <div class="p-4 p-md-0 left">
+                <img src="img/about.png" alt="" class="img-fluid w-75 about-img">
+            </div>
+        </div>
+        <div class="col-12 col-md-8 col-lg-6">
+            <div class="p-4 p-lg-5 right">
+                <h1 class="fw-bold">Who we really are & why choose us</h1>
+                <p class="text-black-50">
+                    We have over 4000+ unbiased reviews and our customers trust our plant process and delivery service every time
+                </p>
+                <p class="text-black-50">
+                    <i class="ri-checkbox-fill text-success"></i>
+                    We always deliver on time.
+                </p>
+                <p class="text-black-50">
+                    <i class="ri-checkbox-fill text-success"></i>
+                    We give you guides to protect and care for your plants.
+                </p>
+                <p class="text-black-50">
+                    <i class="ri-checkbox-fill text-success"></i>
+                    We always come over for a check-up after sale.
+                </p>
+                <p class="text-black-50">
+                    <i class="ri-checkbox-fill text-success"></i>
+                    100% money back guaranteed.
+                </p>
+                <a href="#" class="text-decoration-none d-flex align-items-center fw-bold mt-4">
+                    Shop Now
+                    <i class="ri-arrow-right-down-line ms-1"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--start plant-->
+<section id="startPlant" class="container bg-primary rounded">
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="p-5">
+                <h2 class="text-center text-white">Steps to start your plants off right</h2>
+            </div>
+            <div class="row p-3 mb-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="mb-3 top">
+                        <div class="card p-3 rounded">
+                            <div class="card-body">
+                                <div class="card_number bg-primary text-white d-flex justify-content-center align-items-center my-4" style="width: 45px; height: 50px; border-radius: 0.25rem;">01</div>
+                                <p class="fw-bold">
+                                    Choose Plant
+                                </p>
+                                <p class="text-black-50 mb-0">
+                                    We have several varieties plants you can choose from.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="mb-3 top">
+                        <div class="card p-3 rounded">
+                            <div class="card-body">
+                                <div class="card_number bg-primary text-white d-flex justify-content-center align-items-center my-4" style="width: 45px; height: 50px; border-radius: 0.25rem;">02</div>
+                                <p class="fw-bold">
+                                    Place an order
+                                </p>
+                                <p class="text-black-50 mb-0">
+                                    Once your order is set, we move to the next step which is the shipping.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="mb-3 top">
+                        <div class="card p-3 rounded">
+                            <div class="card-body">
+                                <div class="card_number bg-primary text-white d-flex justify-content-center align-items-center my-4" style="width: 45px; height: 50px; border-radius: 0.25rem;">03</div>
+                                <p class="fw-bold">
+                                    Get plants delivered
+                                </p>
+                                <p class="text-black-50 mb-0">
+                                    Our delivery process is easy, you receive the plant direct to your door.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--product-->
+<section id="products" class="container">
+    <div class="row min-vh-100 justify-content-center p-md-5">
+        <div class="col-12">
+            <div class="mt-5 text-center p-3">
+                <h3 class="fw-bold">Check out our products</h3>
+                <p class="text-black-50 my-3 text-center">
+                    Here are some selected plants from our showroom, all are in excellent shape and has a long life span. Buy and enjoy best quality.
+                </p>
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="top">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <img src="img/product1.png" alt="" class="img-fluid">
+                        <h6 class="mt-3 fw-bold">Cacti Plant</h6>
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-bold">
+                                <span>$</span>19.99
+                            </p>
+                            <div class="bg-primary p-1 rounded d-flex justify-content-center align-items-center text-white" style="height: 30px;">
+                                <i class="ri-shopping-bag-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-lg-2 mx-lg-5">
+            <div class="top">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <img src="img/product2.png" alt="" class="img-fluid">
+                        <h6 class="mt-3 fw-bold">Cactus Plant</h6>
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-bold">
+                                <span>$</span>11.99
+                            </p>
+                            <div class="bg-primary p-1 rounded d-flex justify-content-center align-items-center text-white" style="height: 30px;">
+                                <i class="ri-shopping-bag-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="top">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <img src="img/product3.png" alt="" class="img-fluid">
+                        <h6 class="mt-3 fw-bold">Aloe Vera Plant</h6>
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-bold">
+                                <span>$</span>7.99
+                            </p>
+                            <div class="bg-primary p-1 rounded d-flex justify-content-center align-items-center text-white" style="height: 30px;">
+                                <i class="ri-shopping-bag-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 d-none d-lg-block"></div>
+        <div class="col-6 col-lg-2">
+            <div class="top">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <img src="img/product4.png" alt="" class="img-fluid">
+                        <h6 class="mt-3 fw-bold">Succulent Plant</h6>
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-bold">
+                                <span>$</span>5.99
+                            </p>
+                            <div class="bg-primary p-1 rounded d-flex justify-content-center align-items-center text-white" style="height: 30px;">
+                                <i class="ri-shopping-bag-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-lg-2 mx-lg-5">
+            <div class="top">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <img src="img/product5.png" alt="" class="img-fluid">
+                        <h6 class="mt-3 fw-bold">Succulent Plant</h6>
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-bold">
+                                <span>$</span>10.99
+                            </p>
+                            <div class="bg-primary p-1 rounded d-flex justify-content-center align-items-center text-white" style="height: 30px;">
+                                <i class="ri-shopping-bag-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-lg-2">
+            <div class="top">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <img src="img/product6.png" alt="" class="img-fluid">
+                        <h6 class="mt-3 fw-bold">Green Plant</h6>
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-bold">
+                                <span>$</span>8.99
+                            </p>
+                            <div class="bg-primary p-1 rounded d-flex justify-content-center align-items-center text-white" style="height: 30px;">
+                                <i class="ri-shopping-bag-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--FAQ-->
+<section id="faq" class="container-fluid bg-secondary">
+    <div class="row py-5 justify-content-center align-items-center">
+        <div class="col-12">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-12">
+                        <div class="mb-5">
+                            <h3 class="fw-bold">Some common questions were often asked</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="top">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item mb-5">
+                                    <h3 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            My flowers are falling off or dying?
+                                        </button>
+                                    </h3>
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Plants are easy way to add color energy and transform your space but which planet is for you. Choosing the right plant.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-5">
+                                    <h3 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            What causes leaves to become pale?
+                                        </button>
+                                    </h3>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Plants are easy way to add color energy and transform your space but which planet is for you. Choosing the right plant.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-5">
+                                    <h3 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            What causes brown crispy leaves?
+                                        </button>
+                                    </h3>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Plants are easy way to add color energy and transform your space but which planet is for you. Choosing the right plant.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="top">
+                            <div class="accordion" id="accordionExampleTwo">
+                                <div class="accordion-item mb-5">
+                                    <h3 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            How do i choose a plant?
+                                        </button>
+                                    </h3>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExampleTwo">
+                                        <div class="accordion-body">
+                                            Plants are easy way to add color energy and transform your space but which planet is for you. Choosing the right plant.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-5">
+                                    <h3 class="accordion-header" id="headingSix">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            Why are gnats flying around my plant?
+                                        </button>
+                                    </h3>
+                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExampleTwo">
+                                        <div class="accordion-body">
+                                            Plants are easy way to add color energy and transform your space but which planet is for you. Choosing the right plant.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-5">
+                                    <h3 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            How do I change the pots?
+                                        </button>
+                                    </h3>
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExampleTwo">
+                                        <div class="accordion-body">
+                                            Plants are easy way to add color energy and transform your space but which planet is for you. Choosing the right plant.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact Us-->
+<section id="contactUs" class="container">
+    <div class="row p-2 pt-5 p-lg-5 min-vh-100">
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="p-2 pt-5 p-lg-5 left">
+                <h3 class="fw-bold mb-5">Reach out to us today via any of the given information</h3>
+                <p class="text-black-50">Call us for instant support</p>
+                <div class="d-flex align-items-center mb-5">
+                    <i class="ri-phone-line riCus"></i>
+                    <p class="ms-2 mb-0">+999 888 777</p>
+                </div>
+                <p class="text-black-50">Write us by mail</p>
+                <div class="d-flex align-items-center">
+                    <i class="ri-mail-line riCus"></i>
+                    <p class="ms-2 mb-0">user@email.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="p-2 pt-5 p-lg-5 right">
+                <form action="">
+                    <div class="form-floating mb-4">
+                        <input type="email" class="form-control floatingInput" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input type="password" class="form-control floatingInput" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="form-floating mb-5">
+                        <textarea class="form-control floatingInput" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Comments</label>
+                    </div>
+                    <a href="#" class="btn btn-primary p-3">
+                        <div class="d-flex justify-content-between align-items-center px-2">
+                            Send Message
+                            <i class="ri-arrow-right-up-line ms-2"></i>
+                        </div>
+                    </a>
+                </form>
+            </div>
+        </div>
+        <div class="col-12 col md-6 col-lg-4">
+            <div class="pt-5 top">
+                <a class="navbar-brand text-black" href="#">
+                    <i class="ri-leaf-line"></i>
+                    <span class="fw-bold text-uppercase h6">Plantex</span>
+                </a>
+                <h5 class="fw-bold my-4">Subscribe to our newsletter to stay update</h5>
+                <form action="">
+                    <div class="input-group mb-3 bg-secondary py-3 px-3 rounded-2">
+                        <input type="text" class="form-control subscribe bg-secondary" placeholder="Enter Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <a href="#" class="btn btn-primary rounded-2">
+                            <div class="d-flex align-items-center">
+                                Subscribe
+                                <i class="ri-arrow-right-up-line ms-2"></i>
+                            </div>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="pt-5 top">
+                <h5 class="fw-bold mb-4">Our Address</h5>
+                <ul class="ps-0" style="list-style-type: none">
+                    <li class="text-black-50 mb-2">1234 - Peru</li>
+                    <li class="text-black-50 mb-2">La Libertad - 43210</li>
+                    <li class="text-black-50 mb-2">123-456-789</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+            <div class="pt-5 top">
+                <h5 class="fw-bold mb-4">Contact Us</h5>
+                <p class="text-black-50">+999 888 777</p>
+                <div class="">
+                    <a href="#" class="text-decoration-none me-3 text-black">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none me-3 text-black">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none me-3 text-black">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="pt-5 top">
+                <h5 class="fw-bold mb-4">We accept all credit cards</h5>
+                <div class="">
+                    <img src="img/card1.png" alt="" class="img-fluid" style="width: 35px; height: 24px;">
+                    <img src="img/card2.png" alt="" class="img-fluid" style="width: 35px; height: 24px;">
+                    <img src="img/card3.png" alt="" class="img-fluid" style="width: 35px; height: 24px;">
+                    <img src="img/card4.png" alt="" class="img-fluid" style="width: 35px; height: 24px;">
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="pt-5 d-flex justify-content-center align-items-center">
+                <p class="text-black-50 mb-0">© Bedimcode. All rigths reserved</p>
+            </div>
+        </div>
+    </div>
+</section>
+<a href="#home" class="btn btn-primary position-fixed scroll-to-top animate__animated d-none">
+    <i class="ri-arrow-up-line"></i>
+</a>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

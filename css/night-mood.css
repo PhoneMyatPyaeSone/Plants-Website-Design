@@ -1,0 +1,53 @@
+body.night-mood {
+  background-color: #1C211F !important; }
+
+.night-mood .menu {
+  background-color: #1C211F !important; }
+
+.night-mood .menu .nav-item .nav-link,
+.night-mood .menu .navbar-brand,
+.night-mood #contactUs .navbar-brand {
+  color: #F2F3F2 !important; }
+
+.night-mood .menu .nav-item .nav-link:hover,
+.night-mood .menu .nav-item .nav-link.active {
+  color: #3E6553FF !important; }
+
+.night-mood .changeMoodBtn,
+.night-mood #home h1,
+.night-mood #about h1,
+.night-mood #products h3,
+.night-mood #products h6,
+.night-mood #products .card p,
+.night-mood #startPlant .card p,
+.night-mood #faq h3,
+.night-mood #faq .accordion .accordion-header button,
+.night-mood #faq .accordion .accordion-body,
+.night-mood #contactUs h3,
+.night-mood #contactUs .left p,
+.night-mood #contactUs .left i,
+.night-mood #contactUs h5 {
+  color: #F2F3F2 !important; }
+
+.night-mood .text-black-50,
+.night-mood #contactUs label,
+.night-mood #contactUs a {
+  color: #828784 !important; }
+
+.night-mood #startPlant,
+.night-mood #faq,
+.night-mood #contactUs div.bg-secondary {
+  background-color: #2F3733 !important; }
+
+.night-mood #startPlant .card,
+.night-mood #faq .accordion-button {
+  background-color: #262C29; }
+
+.night-mood #faq .accordion-item {
+  background-color: transparent !important; }
+
+.night-mood #contactUs input,
+.night-mood #contactUs textarea {
+  background-color: #1C211F !important; }
+
+/*# sourceMappingURL=night-mood.css.map */
