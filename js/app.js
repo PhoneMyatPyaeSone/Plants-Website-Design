@@ -36,7 +36,7 @@ ScrollReveal({
 
 ScrollReveal({
     origin: "right",
-    distance: "30px",
+    distance: "20px",
     duration: 1500,
     reset: true
 }).reveal(".right",{
@@ -62,7 +62,6 @@ function navScroll(){
     currentSection.waypoint(function (direction) {
         if(direction = "up"){
             let currentSectionId =$(this.element).attr('id');
-            console.log(currentSectionId)
             setActive(currentSectionId);
         }
     },{
